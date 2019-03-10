@@ -4,13 +4,13 @@
              xmlns:local="clr-namespace:App_Consulta_CEP"
              x:Class="App_Consulta_CEP.MainPage">
 
-    <StackLayout BackgroundColor="#FFBF00" Padding="30" Spacing="30">
+    <StackLayout BackgroundColor="#FFBF00" Padding="30, 0, 30, 10" Spacing="30">
         <Image x:Name="Logo" Source="logo.png"/>
         <Entry x:Name="Cep" Placeholder="Digite o CEP" PlaceholderColor="#FFBF00" BackgroundColor="White"/>
         <Button x:Name="Botao" Text="BUSCAR CEP" BackgroundColor="#00416B" TextColor="White"/>
 
         <!-- Place new controls here -->
-        <Label x:Name="Resultado" Text="" 
+        <Label x:Name="Resultado" Text="" TextColor="#00416B"
            HorizontalOptions="Center"
            VerticalOptions="Center" />
     </StackLayout>
